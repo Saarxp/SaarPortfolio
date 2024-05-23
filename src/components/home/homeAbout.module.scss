@@ -1,0 +1,21 @@
+.homeAboutSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+    .homeAboutCol{
+        display: flex;
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+        }
+    }
+}
+
+.blue {
+    color: var(--blue-lightning);
+}

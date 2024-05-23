@@ -1,0 +1,43 @@
+:root{
+    --blue-lightning: #018dbb;
+}
+
+
+#root{ 
+    height: 100vh;
+    // background-image: url('./assets/images/tiard-schulz-BbqIr6T8O10-unsplash.jpg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-attachment: scroll;
+    // background-position: center;
+}
+
+body{
+    font-size: 20px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: white;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #05004d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 13, 255, 0.959);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(65, 71, 255);
+  border-radius: 12px;
+}
