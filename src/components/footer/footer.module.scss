@@ -1,0 +1,12 @@
+.footerWrapper{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(3, 0, 50);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    font-size: 1.2em;
+}

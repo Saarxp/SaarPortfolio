@@ -1,8 +1,8 @@
-.homeWrapper{
+.homeWrapper {
     height: 100%;
     width: 100%;
 
-    &__BackgroundImage{
+    .BackgroundImage {
         background-image: url('../../assets/images/tiard-schulz-BbqIr6T8O10-unsplash.jpg');
         background-size: cover;
         background-repeat: no-repeat;
@@ -12,7 +12,7 @@
         z-index: -1;
     }
 
-    &__row{
+    .homeMainRow {
         width: 64%;
         height: 100%;
         margin: 0 auto;
@@ -24,34 +24,35 @@
         justify-content: space-between;
         align-items: center;
 
-        &__col{
+        .homeMainCol {
             display: flex;
             flex-direction: column;
-            margin: 200px 0 250px 0;
             gap: 10px;
+            margin: 200px 0 250px 0;
 
-            &__wavingHand{
+            .homeWavingHand {
                 display: inline-block;
                 animation: wave 2s infinite;
                 transform-origin: bottom center;
             }
 
-            &__mainName{
+            .homeMainName {
                 color: var(--blue-lightning);
             }
 
-            &__topicName{
+            .homeTopicName {
                 margin-bottom: 35px;
             }
 
-            &__typeWriterWrapper{
-                *{
+            .typeWriter {
+                * {
                     font-size: 40px;
                     color: var(--blue-lightning);
                 }
 
             }
-            &__headerImage{
+
+            .homeHeaderImage {
                 width: 400px;
                 height: 400px;
                 transform: scaleX(-1);
@@ -61,16 +62,38 @@
 }
 
 
-
 @keyframes wave {
-    0% { transform: rotate(0deg); }
-    10% { transform: rotate(14deg); }
-    20% { transform: rotate(-8deg); }
-    30% { transform: rotate(14deg); }
-    40% { transform: rotate(-4deg); }
-    50% { transform: rotate(10deg); }
-    60% { transform: rotate(0deg); }
-    100% { transform: rotate(0deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 
@@ -107,7 +130,7 @@
 
 
 //         .mainName{
-            // color: var(--blue-lightning);
+// color: var(--blue-lightning);
 //         }
 //     }
 // }

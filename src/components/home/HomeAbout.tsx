@@ -2,6 +2,7 @@ import { AiFillGithub } from "react-icons/ai"
 import { FaLinkedinIn } from "react-icons/fa"
 import myImg from '../../assets/images/266-2666972_software-developer.png'
 import style from './homeAbout.module.scss';
+import Footer from "../footer/Footer";
 
 function HomeAbout() {
   return (
@@ -74,6 +75,7 @@ function HomeAbout() {
             </ul>
           </div >
         </div >
+        <Footer />
     </div >
   )
 }

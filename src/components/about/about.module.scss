@@ -1,0 +1,29 @@
+.aboutWrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+    .BackgroundImage{
+        background-image: url('../../assets/images/tiard-schulz-BbqIr6T8O10-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .aboutMainRow{
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .aboutMainCol{
+        margin: 200px 0 250px 0;
+    }
+}
