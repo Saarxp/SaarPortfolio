@@ -1,14 +1,25 @@
-import { RouterProvider } from "react-router-dom"
-import router from "./router/router"
-
+import { RouterProvider } from "react-router-dom";
+import router from "./router/router";
+import { useEffect, useState } from "react";
+import Preloader from "./components/preloader/Preloader";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 4270);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <>
-    <RouterProvider router={router}/>
+      {loading && <Preloader opacity={loading ? `opacity` : ``} />}
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

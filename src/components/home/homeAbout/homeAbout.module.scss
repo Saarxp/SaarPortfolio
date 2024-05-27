@@ -1,0 +1,87 @@
+.homeAboutSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+    .homeAboutCol {
+        display: flex;
+        margin-bottom: 30px;
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            margin-top: 80px;
+        }
+    }
+
+    .homeAboutHeader {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .homeAboutDescription {
+        text-align: left;
+        margin-right: 20px;
+    }
+
+    .homeAboutSocial {
+        text-align: center;
+        height: 200px;
+        margin-bottom: 80px;
+
+        p {
+            font-size: 1em;
+        }
+
+        .homeAboutSocialLinks {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding-top: 40px;
+
+
+            li {
+                .socialIcons {
+                    font-size: 3px;
+                    background-color: white;
+                    border-radius: 50%;
+                    line-height: 2em;
+                    transition: .5s;
+
+                    * {
+                        font-size: 20em;
+                    }
+                }
+
+                .socialIcons:hover {
+                    background-color: var(--blue-lightning);
+                    font-size: 4px;
+                    box-shadow: 0px 0px 10px 2px var(--blue-lightning);
+                }
+            }
+
+        }
+    }
+}
+
+.blue {
+    color: var(--blue-lightning);
+}
+
+.myAvatar{
+    position: relative;
+    .avatarCircle{
+        position: absolute;
+        top: 105px;
+        left: 10px;
+        background-color: rgb(3, 3, 120);
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        z-index: -1;
+    }
+}

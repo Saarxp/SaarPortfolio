@@ -1,9 +1,9 @@
-import Projects from '../../components/projects/Projects'
+import Projects from "../../components/projects/Projects";
 
 function ProjectsPage() {
   return (
     <Projects />
-  )
+  );
 }
 
-export default ProjectsPage
+export default ProjectsPage;

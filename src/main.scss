@@ -2,13 +2,13 @@
     --blue-lightning: #018dbb;
 }
 
-
 #root{ 
-    height: 100vh;
+  height: 100%;
 }
 
 body{
     font-size: 20px;
+    height: 100vh;
 }
 
 *{
@@ -20,19 +20,5 @@ body{
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
-}
-
-::-webkit-scrollbar-track {
-  background: #05004d;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(0, 13, 255, 0.959);
-  border-radius: 12px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(65, 71, 255);
-  border-radius: 12px;
+  display: none;
 }

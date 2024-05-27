@@ -1,8 +1,7 @@
-import TypeWriter from "../typeWriter/TypeWriter";
+import TypeWriter from "./typeWriter/TypeWriter";
 import style from "./home.module.scss";
 import headerImage from "../../assets/images/kindpng_3704903.png";
-import HomeAbout from "./HomeAbout";
-// import Footer from "../footer/Footer";
+import HomeAbout from "./homeAbout/HomeAbout";
 
 function Home() {
   return (
