@@ -8,10 +8,6 @@
     .toolBoxHeader{
         text-align: center;
         font-weight: 500;
-        span{
-            font-weight: 600;
-            color: var(--blue-lightning);
-        }
     }
     .toolBoxContainer{
         display: grid;
@@ -20,6 +16,7 @@
         margin: 0 auto;
         align-items: center; 
         justify-items: center;
+        justify-content: center;
         grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
         // grid-template-rows: repeat(auto-fit, minmax(100px, 150px));
         row-gap: 30px;

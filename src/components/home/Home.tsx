@@ -10,12 +10,12 @@ function Home() {
       <div className={style.homeMainRow}>
         <div className={style.homeMainCol}>
           <h1 className={style.mainColHeadin}>
-            Hi There! <span className={style.homeWavingHand}>👋🏻</span>
+            Hi There! <span className="blue">👋🏻</span>
           </h1>
 
           <h1 className={style.homeTopicName}>
             I'M
-            <strong className={style.homeMainName}> SAAR ISRAELI</strong>
+            <strong className="blue"> SAAR ISRAELI</strong>
           </h1>
           <div className={style.typeWriter}>
             <TypeWriter />

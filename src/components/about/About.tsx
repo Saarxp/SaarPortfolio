@@ -14,7 +14,7 @@ function About() {
         <div className={style.aboutMeCol}>
           <div className={style.aboutTextWrapper}>
             <h2 className={style.aboutMeHeader}>
-              About <span>Me</span>
+              About <span className="blue">Me</span>
             </h2>
             <p>
               *About me*

@@ -16,7 +16,7 @@ function SkillsContainer() {
   return (
     <div className={style.skillBoxWrapper}>
       <h1 className={style.skillBoxHeader}>
-        Professional <span>SkillSet</span>
+        Professional <span className="blue">SkillSet</span>
       </h1>
       <div className={style.skillBoxContainer}>
         <SkillBox Icon={FaHtml5} fontSize="5rem" />

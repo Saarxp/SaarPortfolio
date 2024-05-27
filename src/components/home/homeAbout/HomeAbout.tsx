@@ -10,34 +10,34 @@ function HomeAbout() {
       <div className={style.homeAboutCol}>
         <div className={style.homeAboutDescription}>
           <h1 className={style.homeAboutHeader}>
-            LET ME <span className={style.blue}> INTRODUCE </span> MYSELF
+            LET ME <span className="blue"> INTRODUCE </span> MYSELF
           </h1>
           <p className={style.homeAboutBody}>
             *description*
             <br />
             <br />I am fluent in classics like
             <i>
-              <b className={style.blue}> *give some skills* . </b>
+              <b className="blue"> *give some skills* . </b>
             </i>
             <br />
             <br />
             My field of Interest's are building new &nbsp;
             <i>
-              <b className={style.blue}>Web Technologies and Products </b>
+              <b className="blue">Web Technologies and Products </b>
             </i>
             <br />
             <br />
             Whenever possible, I also apply my passion for developing products
-            with <b className={style.blue}>Node.js</b> and
+            with <b className="blue">Node.js</b> and
             <i>
-              <b className={style.blue}>
+              <b className="blue">
                 {" "}
                 Modern Javascript/Typescript Library and Frameworks
               </b>
             </i>
             &nbsp; like
             <i>
-              <b className={style.blue}> React.js</b>
+              <b className="blue"> React.js</b>
             </i>
           </p>
         </div>
@@ -50,7 +50,7 @@ function HomeAbout() {
         <div className={style.homeAboutSocial}>
           <h1>FIND ME ON</h1>
           <p>
-            Feel free to <span className={style.blue}>connect </span>with me
+            Feel free to <span className="blue">connect </span>with me
           </p>
           <ul className={style.homeAboutSocialLinks}>
             <li className={style.socialIconsList}>

@@ -8,13 +8,10 @@
 
     .homeAboutCol {
         display: flex;
-        margin-bottom: 30px;
-        img {
-            width: 200px;
-            height: 200px;
-            object-fit: contain;
-            margin-top: 80px;
-        }
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 75%;
+        margin-bottom: 50px;
     }
 
     .homeAboutHeader {
@@ -25,15 +22,17 @@
     .homeAboutDescription {
         text-align: left;
         margin-right: 20px;
+        width: 60%;
     }
 
     .homeAboutSocial {
         text-align: center;
         height: 200px;
         margin-bottom: 80px;
+        gap: 50px;
 
         p {
-            font-size: 1em;
+            font-size: .8em;
         }
 
         .homeAboutSocialLinks {
@@ -68,12 +67,14 @@
     }
 }
 
-.blue {
-    color: var(--blue-lightning);
-}
-
 .myAvatar{
     position: relative;
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        margin-top: 80px;
+    }
     .avatarCircle{
         position: absolute;
         top: 105px;

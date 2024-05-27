@@ -29,10 +29,9 @@
 
 .skillWrap:hover{
     animation: spin 1s ease-in-out infinite;
-    width: 250px;
-    height: 160px;
+    transform: scale(1.15);
     *{
-        width: 150px;
-        height: 150px;
+        width: 110px;
+        height: 110px;
     }
 }

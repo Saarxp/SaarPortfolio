@@ -1,0 +1,28 @@
+.projectWrapper{
+    width: 70%;
+    margin-inline: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .projectMainRow{
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        .underHeader{
+            margin-bottom: 50px;
+        }
+    }
+
+    .projectContainer{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap: 80px;
+        flex-wrap: wrap;
+    }
+}
+

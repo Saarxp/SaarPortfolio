@@ -8,7 +8,7 @@ function MyTools() {
   return (
     <div className={style.toolBoxWrapper}>
       <h1 className={style.toolBoxHeader}>
-      <span>Tools</span> I Use
+      <span className='blue'>Tools</span> I Use
       </h1>
       <div className={style.toolBoxContainer}>
         <SkillBox Icon={VscVscode} fontSize="5rem" />

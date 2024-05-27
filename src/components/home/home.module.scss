@@ -13,13 +13,9 @@
     }
 
     .homeMainRow {
-        width: 64%;
+        width: 70%;
         height: 100%;
         margin: 0 auto;
-        // background-image: url('../../assets/images/tiard-schulz-BbqIr6T8O10-unsplash.jpg');
-        // background-size: cover;
-        // background-repeat: no-repeat;
-        // background-attachment: scroll;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -28,7 +24,7 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            margin: 200px 0 250px 0;
+            margin: 100px 0 250px 0;
 
             .homeWavingHand {
                 display: inline-block;
@@ -36,9 +32,6 @@
                 transform-origin: bottom center;
             }
 
-            .homeMainName {
-                color: var(--blue-lightning);
-            }
 
             .homeTopicName {
                 margin-bottom: 35px;
@@ -55,6 +48,7 @@
             .homeHeaderImage {
                 width: 400px;
                 height: 400px;
+                object-fit: contain;
                 transform: scaleX(-1);
             }
         }
@@ -95,56 +89,3 @@
         transform: rotate(0deg);
     }
 }
-
-
-// .homeWrapper__row{
-//     width: 70%;
-//     height: 93vh;
-//     // background-image: url('../../assets/images/tiard-schulz-BbqIr6T8O10-unsplash.jpg');
-//     // background-size: cover;
-//     // background-repeat: no-repeat;
-//     // background-attachment: scroll;
-//     display: flex;
-//     justify-content: space-between;
-//     margin: 0 auto;
-//     align-items: center;
-// }
-
-
-//   .wavingHand {
-//     display: inline-block;
-//     animation: wave 2s infinite;
-//     transform-origin: bottom center;
-//   }
-
-//   .homeWrapper__row__col{
-//     display: flex;
-//     flex-direction: column;
-//     gap: 4vh;
-
-//     .headNameWrapper{
-//         display: flex;
-//         flex-direction: column;
-//         gap: 2vh;
-//         flex: 0 0 auto;
-
-
-//         .mainName{
-// color: var(--blue-lightning);
-//         }
-//     }
-// }
-
-// .typeWriterWrapper{
-//     flex: 0 0 auto;
-//     width: 100%;
-//     *{
-//         color: var(--blue-lightning);
-//     }
-// }
-
-// .headerImage{
-//     width: 300px;
-//     height: 300px;
-//     transform: scaleX(-1);
-// }
