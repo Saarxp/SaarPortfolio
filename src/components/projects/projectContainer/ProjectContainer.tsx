@@ -1,3 +1,4 @@
+import Footer from "../../footer/Footer";
 import ProjectCard, { ProjectCardProps } from "../projectCard/ProjectCard";
 import projects from "../projectData";
 import style from "./projectContainer.module.scss";
@@ -22,6 +23,7 @@ function ProjectContainer() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

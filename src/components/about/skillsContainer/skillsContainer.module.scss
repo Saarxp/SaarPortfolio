@@ -29,7 +29,12 @@
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
-
+    .skillBoxWrapper {
+        .skillBoxContainer{
+            height: 100%;
+            row-gap: 20px;
+        }
+    }
 }
 
 @media screen and (min-width: 1441px) {
