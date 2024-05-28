@@ -11,8 +11,8 @@ const projects:ProjectCardProps[] =
     },
     {
         imgSrc: img,
-        header: "My Weather",
-        description: "My Weather project is a project i built with",
+        header: "My Hilf",
+        description: "asdasdsaasdasdadasdsadsadsadadsadsadsadsadsadsadasdasdasdasdasdasdasdsaasdasdadasdsadsadsadadsadsadsadsadsadsadasdasdasdasdasdasdasdsaasdasdadasdsadsadsadadsadsadsadsadsadsadasdasdasdasdasd",
         gitUrl: "https://github.com/Saarxp/Weather-project",
     },
     {
