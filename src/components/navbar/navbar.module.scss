@@ -78,3 +78,27 @@ ul {
     padding: 0.3rem 2rem !important;
     font-size: 1.2rem !important;
 }
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .navWrapper {
+        gap: 400px;
+    }
+
+    .sticky {
+        gap: 400px;
+    }
+    
+
+}
+
+@media screen and (min-width: 1441px) {
+
+}

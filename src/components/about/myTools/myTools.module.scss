@@ -18,8 +18,30 @@
         justify-items: center;
         justify-content: center;
         grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
-        // grid-template-rows: repeat(auto-fit, minmax(100px, 150px));
         row-gap: 30px;
         padding-bottom: 100px;
     }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .toolBoxWrapper {
+        margin-top: 100px;
+        .toolBoxContainer{
+            padding: 0;
+            margin-bottom: 50px;
+            }
+    }
+}
+
+@media screen and (min-width: 1441px) {
+
 }

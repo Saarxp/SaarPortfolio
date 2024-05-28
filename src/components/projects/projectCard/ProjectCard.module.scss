@@ -61,3 +61,30 @@
 .cardButton:hover{
     background-color: rgb(58, 58, 153);
 }
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .cardWrapper{
+        width: 300px;
+        height: 470px;
+        .cardImg{
+            width: 200px;
+            height: 200px;
+        }
+    
+        .cardDescription{
+            height: 120px;
+        }
+    }
+}
+
+@media screen and (min-width: 1441px) {
+
+}

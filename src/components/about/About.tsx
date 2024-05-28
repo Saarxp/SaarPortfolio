@@ -11,11 +11,11 @@ function About() {
     <div className={style.aboutWrapper}>
       <div className={style.BackgroundImage}></div>
       <div className={style.aboutMainRow}>
-        <div className={style.aboutMeCol}>
-          <div className={style.aboutTextWrapper}>
             <h2 className={style.aboutMeHeader}>
               About <span className="blue">Me</span>
             </h2>
+        <div className={style.aboutMeCol}>
+          <div className={style.aboutTextWrapper}>
             <p>
               *About me*
             </p>
