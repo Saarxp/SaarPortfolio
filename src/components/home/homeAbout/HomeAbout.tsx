@@ -8,42 +8,21 @@ function HomeAbout() {
   return (
     <div className={style.homeAboutSection}>
       <div className={style.homeAboutCol}>
-        <div className={style.homeAboutDescription}>
           <h1 className={style.homeAboutHeader}>
             LET ME <span className="blue"> INTRODUCE </span> MYSELF
           </h1>
-          <p className={style.homeAboutBody}>
-            *description*
-            <br />
-            <br />I am fluent in classics like
-            <i>
-              <b className="blue"> *give some skills* . </b>
-            </i>
-            <br />
-            <br />
-            My field of Interest's are building new &nbsp;
-            <i>
-              <b className="blue">Web Technologies and Products </b>
-            </i>
-            <br />
-            <br />
-            Whenever possible, I also apply my passion for developing products
-            with <b className="blue">Node.js</b> and
-            <i>
-              <b className="blue">
-                {" "}
-                Modern Javascript/Typescript Library and Frameworks
-              </b>
-            </i>
-            &nbsp; like
-            <i>
-              <b className="blue"> React.js</b>
-            </i>
-          </p>
-        </div>
+        <div className={style.homeAboutBody}>
+          <div className={style.homeAboutDescription}>
+            <p>*description*</p>
+            <p>I am fluent in classics like <span className="blue">*give some skills*</span> </p>
+            <p>My field of Interest's are building new <span className="blue">Web Technologies and Products</span> </p>
+            <p>Whenever possible, I also apply my passion for developing products
+            with <span className="blue">Node.js</span> and Modern <span className="blue">Javascript/Typescript Library and Frameworks</span> like <span className="blue"> React.js</span></p>
+          </div>
         <div className={style.myAvatar}>
           <img src={myImg} alt="avatar" />
           <div className={style.avatarCircle}></div>
+        </div>
         </div>
       </div>
       <div>
