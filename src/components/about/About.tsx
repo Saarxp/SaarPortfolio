@@ -5,20 +5,19 @@ import { VscFileBinary } from "react-icons/vsc";
 import { ImEarth } from "react-icons/im";
 import SkillsContainer from "./skillsContainer/SkillsContainer";
 import MyTools from "./myTools/MyTools";
+import Footer from "../footer/Footer";
 
 function About() {
   return (
     <div className={style.aboutWrapper}>
       <div className={style.BackgroundImage}></div>
       <div className={style.aboutMainRow}>
-            <h2 className={style.aboutMeHeader}>
-              About <span className="blue">Me</span>
-            </h2>
+        <h2 className={style.aboutMeHeader}>
+          About <span className="blue">Me</span>
+        </h2>
         <div className={style.aboutMeCol}>
           <div className={style.aboutTextWrapper}>
-            <p>
-              *About me*
-            </p>
+            <p>*About me*</p>
             <p>Apart from coding, some other activities that I love to do!</p>
             <ul>
               <li>
@@ -35,8 +34,9 @@ function About() {
           <img src={headerImage} alt="" />
         </div>
       </div>
-      <SkillsContainer />
-      <MyTools />
+        <SkillsContainer />
+        <MyTools />
+        <Footer />
     </div>
   );
 }

@@ -5,8 +5,28 @@
     position: absolute;
     bottom: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 50%;
     font-size: 1.2em;
 }
+
+
+@media screen and (max-width: 485px) {
+    .footerWrapper{
+        font-size: .6rem;
+    }
+}
+@media screen and (min-width: 485px) and (max-width: 780px) {
+    .footerWrapper{
+        font-size: .8rem;
+    }
+}
+
+
+// @media screen and (min-width: 780px) and (max-width: 1375px) {
+
+// }
+
+// @media screen and (min-width: 1375px) and (max-width: 1735px) {
+
+// }

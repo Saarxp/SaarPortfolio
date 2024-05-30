@@ -58,7 +58,7 @@
 
             li {
                 .socialIcons {
-                    font-size: 3px;
+                    font-size: .2rem;
                     background-color: white;
                     border-radius: 50%;
                     line-height: 2em;
@@ -71,7 +71,7 @@
 
                 .socialIcons:hover {
                     background-color: var(--blue-lightning);
-                    font-size: 4px;
+                    font-size: .3rem;
                     box-shadow: 0px 0px 10px 2px var(--blue-lightning);
                 }
             }
@@ -99,18 +99,125 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 485px) {
+    .homeAboutSection {
+        margin-top: 100px;
+        .homeAboutCol{
+            width: 95%;
+        }
 
+        .homeAboutBody {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 30px;
+        }
+    
+        .homeAboutHeader {
+            font-size: 3rem;
+            font-weight: 400;
+        }
+    
+        .homeAboutDescription {
+            font-size: 1.2rem;
+            width: 95%;
+            margin: 0 auto;
+            gap: 20px;
+        }
+    
+        .homeAboutSocial {
+            h1{
+                font-size: 1.7rem;
+            }
+            .homeAboutSocialLinks {
+                li {
+                    .socialIcons:hover {
+                        font-size: .3rem;
+                    }
+                }
+    
+            }
+        }
+    }
+    
+    .myAvatar{
+        margin-inline: auto;
+        margin-top: 30px;
+        img {
+            width: 230px;
+            height: 230px;
+        }
+        .avatarCircle{
+            width: 210px;
+            height: 210px;
+        }
+    }
+}
+@media screen and (min-width: 485px) and (max-width: 780px) {
+    .homeAboutSection {
+    
+        .homeAboutHeader {
+            font-size: 1.7rem;
+        }
+    
+        .homeAboutDescription {
+            font-size: 1rem;
+        }
+    
+        .homeAboutSocial {
+            h1{
+                font-size: 1.7rem;
+            }
+            .homeAboutSocialLinks {
+                li {
+                    .socialIcons:hover {
+                        font-size: .3rem;
+                    }
+                }
+    
+            }
+        }
+    }
+    
+    .myAvatar{
+        margin: auto;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        .avatarCircle{
+            width: 80px;
+            height: 80px;
+        }
+    }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-
+@media screen and (min-width: 780px) and (max-width: 1375px) {
+    .homeAboutSection {
+        .homeAboutHeader {
+            font-size: 1.7rem;
+        }
+    
+        .homeAboutDescription {
+            font-size: 1rem;
+        }
+    
+        .homeAboutSocial {
+            h1{
+                font-size: 1.7rem;
+            }
+            .homeAboutSocialLinks {
+                li {
+                    .socialIcons:hover {
+                        font-size: .3rem;
+                    }
+                }
+    
+            }
+        }
+    }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-
-}
-
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1375px) and (max-width: 1735px) {
 
 }

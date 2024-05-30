@@ -3,12 +3,13 @@
 }
 
 #root{ 
-  height: 100%;
+  position: relative;
 }
 
 body{
     font-size: 20px;
-    height: 100vh;
+    min-height: 100vh;
+    position: relative;
 }
 
 h1{
@@ -28,5 +29,11 @@ h1{
 }
 
 ::-webkit-scrollbar {
-  display: block;
+  display: none;
+}
+
+@media screen and (min-height: 1200px) {
+  #root{ 
+      position: unset;
+  }
 }

@@ -2,6 +2,7 @@ import TypeWriter from "./typeWriter/TypeWriter";
 import style from "./home.module.scss";
 import headerImage from "../../assets/images/kindpng_3704903.png";
 import HomeAbout from "./homeAbout/HomeAbout";
+import Footer from "../footer/Footer";
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
       <div className={style.homeMainRow}>
         <div className={style.homeMainCol}>
           <h1 className={style.mainColHeadin}>
-            Hi There! <span className="blue">👋🏻</span>
+            Hi There! <span className={style.homeWavingHand}>👋🏻</span>
           </h1>
 
           <h1 className={style.homeTopicName}>
@@ -21,11 +22,12 @@ function Home() {
             <TypeWriter />
           </div>
         </div>
-        <div className={style.homeMainCol}>
+        <div className={style.imageWrapper}>
           <img src={headerImage} alt="" className={style.homeHeaderImage} />
         </div>
       </div>
       <HomeAbout />
+      <Footer />
     </div>
   );
 }

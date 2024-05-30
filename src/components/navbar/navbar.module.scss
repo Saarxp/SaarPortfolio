@@ -21,7 +21,7 @@ ul {
     flex: 1;
     text-align: center;
     li {
-        font-size: 30px;
+        font-size: 2rem;
     }
 }
 
@@ -32,7 +32,7 @@ ul {
 
 
     *{
-        font-size: 20px;
+        font-size: 1.2rem;
         font-weight: 400;
     }
 
@@ -71,34 +71,113 @@ ul {
     gap: 600px;
 }
 
-
-.navbar {
-    position: fixed !important;
-    transition: all 0.3s ease-out 0s !important;
-    padding: 0.3rem 2rem !important;
-    font-size: 1.2rem !important;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 485px) {
 
 }
 
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 485px) and (max-width: 780px){
     .navWrapper {
-        gap: 400px;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    .sticky {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        background-color: #1b1a2ea9 !important;
+        transition: all 0.3s ease-out 0s !important;
+        box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+        backdrop-filter: blur(15px) !important;
+        gap: 50px;
+    }
+
+    .leftNav {
+        flex: 0;
+        text-align: center;
+        li {
+            font-size: 1.7rem;
+        }
+    }
+    
+    .rightNav {
+        flex: 0;
+        display: flex;
+        gap: 10px;
+    
+    
+        *{
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    
+        .rightNavLink{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            *{
+                font-size: 1rem;
+            }
+        }
+        
+        li { 
+            width: 100px;
+        }
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1375px) {
+    .navWrapper {
+        justify-content: space-around;
+        gap: 0px;
     }
 
     .sticky {
-        gap: 400px;
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+    .leftNav {
+        flex: 0;
+        text-align: center;
+        li {
+            font-size: 1.7rem;
+        }
     }
     
+    .rightNav {
+        flex: 0;
+        display: flex;
+        gap: 5px;
+    
+    
+        *{
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    
+        .rightNavLink{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            *{
+                font-size: 1rem;
+            }
+        }
+        
+        li { 
+            width: 100px;
+        }
+    }
 
 }
 
-@media screen and (min-width: 1441px) {
-
+@media screen and (min-width: 1375px) and (max-width: 1735px){
+    
 }

@@ -1,5 +1,4 @@
 .homeWrapper {
-    height: 95%;
     width: 100%;
 
     .BackgroundImage {
@@ -24,7 +23,7 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            margin: 100px 0 250px 0;
+            margin: 150px 0 150px 0;
 
             .homeWavingHand {
                 display: inline-block;
@@ -39,19 +38,19 @@
 
             .typeWriter {
                 * {
-                    font-size: 40px;
+                    font-size: 2.2rem;
                     color: var(--blue-lightning);
                 }
 
             }
-
-            .homeHeaderImage {
-                width: 400px;
-                height: 400px;
-                object-fit: contain;
-                transform: scaleX(-1);
-            }
         }
+    }
+
+    .homeHeaderImage {
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+        transform: scaleX(-1);
     }
 }
 
@@ -90,36 +89,113 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-}
-
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-    
+@media screen and (max-width: 485px) {
     .homeWrapper {
-        height: 92vh;
-        width: 100%;
-
         .homeMainRow {
+            text-align: start;
+            width: 95%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
             .homeMainCol {
-                margin-top: 40vh;
-                .homeHeaderImage {
-                    width: 300px;
-                    height: 300px;
+                margin-top: 150px;
+                margin-bottom: 30px;
+                gap: 10px;
+
+                .typeWriter {
+                    span {
+                        font-size: 1.5rem;
+                        color: var(--blue-lightning);
+                    }
                 }
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                .homeTopicName {
+                    font-size: 2rem;
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .homeHeaderImage {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 485px) and (max-width: 780px) {
+    .homeWrapper {
+        .homeMainRow {
+
+
+            .homeMainCol {
+
+                .typeWriter {
+                    * {
+                        font-size: 1.7rem;
+                        color: var(--blue-lightning);
+                    }
+                }
+
+                h1 {
+                    font-size: 1.7rem;
+                }
+
+                .homeTopicName {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+
+        .homeHeaderImage {
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1375px) {
+    .homeWrapper {
+        .homeMainRow {
+            width: 70%;
+
+            .homeMainCol {
+                margin: 300px 0 150px 0;
+
+                .typeWriter {
+                    * {
+                        font-size: 2rem;
+                        color: var(--blue-lightning);
+                    }
+                }
+
+                h1 {
+                    font-size: 2rem;
+                }
+
+                .homeTopicName {
+                    font-size: 2rem;
+                }
+
+            }
+        }
+
+        .imageWrapper {
+            margin-top: 150px;
+            .homeHeaderImage {
+                width: 280px;
+                height: 280px;
             }
         }
     }
 }
 
-@media screen and (min-width: 1441px) {
-}
+// @media screen and (min-width: 1375px) and (max-width: 1735px) {
 
-
-//for Mobile Devices – 320px — 480px.
-// iPads and Tablets – 481px — 768px.
-// Laptops and small screen – 769px — 1024px.
-// Large screens and Desktops – 1025px — 1200px.
-// TV and Extra Large Screens – 1201px and more.
+// }

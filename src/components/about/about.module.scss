@@ -1,7 +1,5 @@
 .aboutWrapper {
-    height: 100%;
     width: 100%;
-    position: relative;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -24,6 +22,7 @@
         margin-top: 100px;
         display: flex;
         flex-direction: column;
+
         .aboutMeHeader {
             text-align: center;
             font-weight: 400;
@@ -33,25 +32,27 @@
     .aboutMeCol {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        align-items: center;
         margin-top: 40px;
 
         .aboutTextWrapper {
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 15px;
 
-            ul{
+            ul {
                 padding-left: 30px;
                 display: flex;
                 flex-direction: column;
                 gap: 5px;
-                li{
+
+                li {
                     display: flex;
                     align-items: center;
                     gap: 7px;
 
-                    *{
+                    * {
                         font-size: larger;
                     }
                 }
@@ -65,36 +66,149 @@
             transform: scaleX(-1);
         }
     }
-    
-}
-
-@media screen and (max-width: 600px) {
-    
-}
-
-@media screen and (min-width: 601px) and (max-width: 1024px) {
 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (max-width: 485px) {
     .aboutWrapper {
-        gap: 0px;
-    
+        gap: 40px;
         .aboutMainRow {
-            margin-bottom: 110px;
+            width: 100%;
+
+            .aboutMeHeader {
+                font-size: 2rem;
+            }
         }
 
         .aboutMeCol {
+            flex-direction: column;
+            height: 300px;
+            .aboutTextWrapper {
+                width: 50%;
+                font-size: 1rem;
     
+                ul {
+                    padding-left: 15px;
+                    li {
+                        * {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+
             img {
-                width: 300px;
-                height: 300px;
+                display: none;
             }
         }
-        
     }
 }
 
-@media screen and (min-width: 1441px) {
+.skillRow{
+    width: 100%;
+}
 
+.toolsRow{
+    width: 100%;
+}
+
+@media screen and (min-width: 485px) and (max-width: 780px) {
+    .aboutWrapper {
+
+        .aboutMainRow {
+            width: 85%;
+
+            .aboutMeHeader {
+                font-size: 2rem;
+            }
+        }
+
+        .aboutMeCol {
+
+            .aboutTextWrapper {
+                width: 50%;
+                font-size: 1rem;
+    
+                ul {
+    
+                    li {
+                        * {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+
+            img {
+                width: 180px;
+                height: 180px;
+                object-fit: contain;
+                transform: scaleX(-1);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1375px) {
+    .aboutWrapper {
+
+        .aboutMainRow {
+            width: 65%;
+
+            .aboutMeHeader {
+                font-size: 2rem;
+            }
+        }
+
+        .aboutMeCol {
+
+            .aboutTextWrapper {
+                width: 50%;
+                font-size: 1rem;
+    
+                ul {
+    
+                    li {
+                        * {
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+
+            img {
+                width: 250px;
+                height: 250px;
+                object-fit: contain;
+                transform: scaleX(-1);
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1375px) and (max-width: 1735px) {
+
+    .aboutWrapper {
+
+        .aboutMainRow {
+            width: 85%;
+
+            .aboutMeHeader {
+                font-size: 2rem;
+            }
+        }
+
+        .aboutMeCol {
+            width: 100%;
+
+            img {
+                width: 300px;
+                height: 300px;
+                object-fit: contain;
+                transform: scaleX(-1);
+            }
+        }
+
+    }
 }

@@ -2,7 +2,6 @@ import { VscVscode } from 'react-icons/vsc';
 import SkillBox from '../skillsContainer/SkillBox';
 import style from './myTools.module.scss';
 import { SiPostman } from 'react-icons/si';
-import Footer from '../../footer/Footer';
 
 function MyTools() {
   return (
@@ -11,10 +10,9 @@ function MyTools() {
       <span className='blue'>Tools</span> I Use
       </h1>
       <div className={style.toolBoxContainer}>
-        <SkillBox Icon={VscVscode} fontSize="5rem" />
-        <SkillBox Icon={SiPostman} fontSize="5rem" />
+        <SkillBox Icon={VscVscode} />
+        <SkillBox Icon={SiPostman} />
       </div>
-      <Footer />
     </div>
   )
 }

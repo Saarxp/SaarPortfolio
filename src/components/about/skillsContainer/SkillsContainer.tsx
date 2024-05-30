@@ -19,19 +19,19 @@ function SkillsContainer() {
         Professional <span className="blue">SkillSet</span>
       </h1>
       <div className={style.skillBoxContainer}>
-        <SkillBox Icon={FaHtml5} fontSize="5rem" />
-        <SkillBox Icon={FaCss3Alt} fontSize="5rem" />
-        <SkillBox Icon={FaSass} fontSize="5rem" />
-        <SkillBox Icon={RiJavascriptFill} fontSize="5rem" />
-        <SkillBox Icon={SiTypescript} fontSize="4rem" />
-        <SkillBox Icon={DiNodejs} fontSize="5rem" />
-        <SkillBox Icon={FaReact} fontSize="5rem" />
-        <SkillBox Icon={DiMysql } fontSize="5rem" />
-        <SkillBox Icon={DiMongodb} fontSize="5rem" />
-        <SkillBox Icon={FaGithub} fontSize="5rem" />
-        <SkillBox Icon={DiGit} fontSize="5rem" />
-        <SkillBox Icon={RiTailwindCssFill} fontSize="5rem" />
-        <SkillBox Icon={FaBootstrap} fontSize="5rem" />
+        <SkillBox Icon={FaHtml5} />
+        <SkillBox Icon={FaCss3Alt} />
+        <SkillBox Icon={FaSass} />
+        <SkillBox Icon={RiJavascriptFill} />
+        <SkillBox Icon={SiTypescript} />
+        <SkillBox Icon={DiNodejs} />
+        <SkillBox Icon={FaReact} />
+        <SkillBox Icon={DiMysql} />
+        <SkillBox Icon={DiMongodb} />
+        <SkillBox Icon={FaGithub} />
+        <SkillBox Icon={DiGit} />
+        <SkillBox Icon={RiTailwindCssFill} />
+        <SkillBox Icon={FaBootstrap} />
       </div>
     </div>
   );
