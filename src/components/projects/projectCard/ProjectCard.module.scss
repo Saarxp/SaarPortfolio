@@ -8,9 +8,9 @@
     box-shadow: 1px 1px 10px blue;
     transition: 1s ease;
     .cardImg{
-        width: 300px;
+        width: 350px;
         height: 300px;
-        object-fit: contain;
+        object-fit: cover;
         margin-bottom: 20px;
     }
 
