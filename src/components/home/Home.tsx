@@ -16,7 +16,7 @@ function Home() {
 
           <h1 className={style.homeTopicName}>
             I'M
-            <strong className="blue"> SAAR ISRAELI</strong>
+            <span className="blue"> SAAR ISRAELI</span>
           </h1>
           <div className={style.typeWriter}>
             <TypeWriter />
