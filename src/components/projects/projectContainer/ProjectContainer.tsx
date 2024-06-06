@@ -18,6 +18,7 @@ function ProjectContainer() {
               header={project.header}
               description={project.description}
               gitUrl={project.gitUrl}
+              skills={project.skills}
             />
           ))}
         </div>

@@ -10,8 +10,8 @@ function MyTools() {
       <span className='blue'>Tools</span> I Use
       </h1>
       <div className={style.toolBoxContainer}>
-        <SkillBox Icon={VscVscode} />
-        <SkillBox Icon={SiPostman} />
+        <SkillBox Icon={VscVscode} skillName='VsCode'/>
+        <SkillBox Icon={SiPostman} skillName='PostMan'/>
       </div>
     </div>
   )

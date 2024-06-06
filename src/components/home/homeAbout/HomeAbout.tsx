@@ -12,8 +12,7 @@ function HomeAbout() {
           </h1>
         <div className={style.homeAboutBody}>
           <div className={style.homeAboutDescription}>
-            <p>*description*</p>
-            <p>I am fluent in classics like <span className="blue">*give some skills*</span> </p>
+            <p>I am fluent in classics like <span className="blue">Typescript, Scss, Html, React, Node.js</span> </p>
             <p>My field of Interest's are building new <span className="blue">Web Technologies and Products</span> </p>
             <p>Whenever possible, I also apply my passion for developing products
             with <span className="blue">Node.js</span> and Modern <span className="blue">Javascript/Typescript Library and Frameworks</span> like <span className="blue"> React.js</span></p>

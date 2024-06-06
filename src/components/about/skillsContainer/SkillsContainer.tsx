@@ -19,19 +19,19 @@ function SkillsContainer() {
         Professional <span className="blue">SkillSet</span>
       </h1>
       <div className={style.skillBoxContainer}>
-        <SkillBox Icon={FaHtml5} />
-        <SkillBox Icon={FaCss3Alt} />
-        <SkillBox Icon={FaSass} />
-        <SkillBox Icon={RiJavascriptFill} />
-        <SkillBox Icon={SiTypescript} />
-        <SkillBox Icon={DiNodejs} />
-        <SkillBox Icon={FaReact} />
-        <SkillBox Icon={DiMysql} />
-        <SkillBox Icon={DiMongodb} />
-        <SkillBox Icon={FaGithub} />
-        <SkillBox Icon={DiGit} />
-        <SkillBox Icon={RiTailwindCssFill} />
-        <SkillBox Icon={FaBootstrap} />
+        <SkillBox Icon={FaHtml5} skillName="Html"/>
+        <SkillBox Icon={FaCss3Alt} skillName="Css"/>
+        <SkillBox Icon={FaSass} skillName="Sass"/>
+        <SkillBox Icon={RiJavascriptFill} skillName="JavaScript"/>
+        <SkillBox Icon={SiTypescript} skillName="TypeScript"/>
+        <SkillBox Icon={DiNodejs} skillName="Node.js"/>
+        <SkillBox Icon={FaReact} skillName="React"/>
+        <SkillBox Icon={DiMysql} skillName="MySQL"/>
+        <SkillBox Icon={DiMongodb} skillName="MongoDB"/>
+        <SkillBox Icon={FaGithub} skillName="GitHub"/>
+        <SkillBox Icon={DiGit} skillName="Git"/>
+        <SkillBox Icon={RiTailwindCssFill} skillName="TailWind"/>
+        <SkillBox Icon={FaBootstrap} skillName="BootStrap"/>
       </div>
     </div>
   );

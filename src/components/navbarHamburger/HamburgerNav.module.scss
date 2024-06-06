@@ -56,6 +56,15 @@ ul {
     gap: 40px;
     flex: 1;
 
+    .rightNavList{
+        .rightNavLink{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+
     *{
         font-size: 1.2rem;
         font-weight: 400;
@@ -83,6 +92,7 @@ ul {
 .closeHamburger:hover{
     background-color: rgba(147, 147, 147, 0.399);
 }
+
 
 
 @media screen and (max-width: 485px) {
@@ -160,6 +170,6 @@ ul {
 
 }
 
-@media screen and (min-width: 1375px) and (max-width: 1735px){
+// @media screen and (min-width: 1375px) and (max-width: 1735px){
     
-}
+// }

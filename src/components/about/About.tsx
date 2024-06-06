@@ -17,8 +17,8 @@ function About() {
         </h2>
         <div className={style.aboutMeCol}>
           <div className={style.aboutTextWrapper}>
-            <p>*About me*</p>
-            <p>Apart from coding, some other activities that I love to do!</p>
+            <p>Hi, I’m Saar, a Full Stack Developer who loves creating smooth, user-friendly web applications. 
+              I studied at iNT College - Institute of Innovation & Technology and I'm always excited to learn new things.</p>
             <ul>
               <li>
                 <GiConsoleController /> Playing Games
