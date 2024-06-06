@@ -1,0 +1,165 @@
+.rightNavToggle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.442);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    transition: .3s ease-in-out;
+
+    *{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: black;
+    }
+    a{
+        cursor: pointer;
+    }
+
+    .rightNavLink{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 100%;
+        *{
+            margin-top: 5px;
+            font-size: 20px;
+        }
+    }
+    
+    li { 
+        width: 100%;
+    }
+
+    .rightNavLink:hover{
+        background-color: rgba(147, 147, 147, 0.399);
+    }
+}
+
+ul {
+    list-style-type: none;
+    * {
+        text-decoration: none;
+    }
+}
+
+.rightNav {
+    display: flex;
+    gap: 40px;
+    flex: 1;
+
+    *{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+.rightNavIconProject{
+    padding-top: 2px;
+}
+
+.hamburger{
+    display: none;
+
+}
+
+.closeHamburger{
+    a{
+        *{
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+}
+
+.closeHamburger:hover{
+    background-color: rgba(147, 147, 147, 0.399);
+}
+
+
+@media screen and (max-width: 485px) {
+    .rightNavToggle{
+        gap: 15px;
+    }
+
+    .rightNavList{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    .rightNav {
+        flex: 0;
+        li { 
+            width: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: 485px) and (max-width: 780px){
+    .rightNav {
+        display: flex;
+        gap: 10px;
+        flex: 0;
+    
+        *{
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    
+        .rightNavLink{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            *{
+                font-size: 1rem;
+            }
+        }
+        
+        li { 
+            width: 100px;
+        }
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1375px) {
+    .rightNav {
+        display: flex;
+        gap: 5px;
+        flex: 0;
+    
+        *{
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    
+        .rightNavLink{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            *{
+                font-size: 1rem;
+            }
+        }
+        
+        li { 
+            width: 100px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1375px) and (max-width: 1735px){
+    
+}
