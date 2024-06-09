@@ -4,6 +4,7 @@ import socialNetwork from '../../assets/projectImages/SocialNetwork.png';
 import dogBreeds from '../../assets/projectImages/DogBreeds.png';
 import noteList from '../../assets/projectImages/NoteList.png';
 import memoryGame from '../../assets/projectImages/MemoryGame.png';
+import comingSoon from '../../assets/projectImages/Coming soon.jpg';
 
 const projects:ProjectCardProps[] = 
 [
@@ -43,11 +44,11 @@ const projects:ProjectCardProps[] =
         gitUrl: "https://github.com/Saarxp/Memory-Game",
     },
     {
-        imgSrc: weather,
-        header: "My Weather",
-        description: "My Weather project is a project i built with ",
-        skills:"Typescript, Scss, Html.",
-        gitUrl: "https://github.com/Saarxp/Weather-project",
+        imgSrc: comingSoon,
+        header: "Coming Soon...",
+        description: "",
+        skills:"",
+        gitUrl: "",
     }
     
 ]
