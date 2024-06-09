@@ -1,5 +1,5 @@
 import style from "./about.module.scss";
-import headerImage from "../../assets/images/kindpng_3704903.png";
+import headerImage from "../../assets/images/web-development-image-01.png";
 import { GiConsoleController } from "react-icons/gi";
 import { VscFileBinary } from "react-icons/vsc";
 import { ImEarth } from "react-icons/im";
