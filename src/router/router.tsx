@@ -6,10 +6,10 @@ import ProjectsPage from '../page/projectsPage/ProjectsPage'
 import PageNotFound from '../page/pageNotFound/PageNotFound'
 
 const router = createBrowserRouter([{
-  path: "/",
+  path: "/SaarPortfolio/",
   element: <NavbarWrapper />,
   children: [
-    {path: "/SaarPortfolio/", element: <HomePage />},
+    {path: "", element: <HomePage />},
     {path: "about", element: <AboutPage  />},
     {path: "projects", element: <ProjectsPage />},
     {path: "*", element:<PageNotFound />}
