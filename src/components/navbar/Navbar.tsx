@@ -19,7 +19,7 @@ const [navClosed, setNavClosed] = useState<boolean>(true);
   return (
     <div className={navColour ? style.sticky : style.navWrapper }>
       <ul className={style.leftNav}>
-        <li><NavLink to={"/"}>MyPortfolio.</NavLink></li>
+        <li><NavLink to={"/SaarPortfolio/"}>MyPortfolio.</NavLink></li>
       </ul>
       <HamburgerNav setClosed={setNavClosed} closed={navClosed}/>
     </div>

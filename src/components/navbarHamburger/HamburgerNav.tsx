@@ -28,9 +28,9 @@ return (
         ?
         <ul className={style.rightNavToggle}>
             <li className={style.closeHamburger} onClick={() => hideSideBar()}><a><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li onClick={() => hideSideBar()}><NavLink to={"/"} className={style.rightNavLink}><AiOutlineHome className={style.rightNavIcon}/>Home</NavLink></li>
-            <li onClick={() => hideSideBar()}><NavLink to={"/about"} className={style.rightNavLink}><AiOutlineUser className={style.rightNavIcon}/>About</NavLink></li>
-            <li onClick={() => hideSideBar()}><NavLink to={"/projects"} className={style.rightNavLink}><BsBriefcase  className={style.rightNavIconProject}/>Projects</NavLink></li>
+            <li onClick={() => hideSideBar()}><NavLink to={"/SaarPortfolio/"} className={style.rightNavLink}><AiOutlineHome className={style.rightNavIcon}/>Home</NavLink></li>
+            <li onClick={() => hideSideBar()}><NavLink to={"/SaarPortfolio/about"} className={style.rightNavLink}><AiOutlineUser className={style.rightNavIcon}/>About</NavLink></li>
+            <li onClick={() => hideSideBar()}><NavLink to={"/SaarPortfolio/projects"} className={style.rightNavLink}><BsBriefcase  className={style.rightNavIconProject}/>Projects</NavLink></li>
         </ul> 
         :
         <ul className={style.rightNav}>
@@ -41,13 +41,13 @@ return (
                 </a>
             </li>
             <li className={style.rightNavList}>
-                <NavLink to={"/"} className={style.rightNavLink}><AiOutlineHome className={style.rightNavIcon}/>Home</NavLink>
+                <NavLink to={"/SaarPortfolio/"} className={style.rightNavLink}><AiOutlineHome className={style.rightNavIcon}/>Home</NavLink>
             </li>
             <li className={style.rightNavList}>
-                <NavLink to={"/about"} className={style.rightNavLink}><AiOutlineUser className={style.rightNavIcon}/>About</NavLink>
+                <NavLink to={"/SaarPortfolio/about"} className={style.rightNavLink}><AiOutlineUser className={style.rightNavIcon}/>About</NavLink>
             </li>
             <li className={style.rightNavList}>
-                <NavLink to={"/projects"} className={style.rightNavLink}><BsBriefcase className={style.rightNavIconProject}/>Projects</NavLink>
+                <NavLink to={"/SaarPortfolio/projects"} className={style.rightNavLink}><BsBriefcase className={style.rightNavIconProject}/>Projects</NavLink>
             </li>
         </ul>
         }
