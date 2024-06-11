@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://Saarxp.github.io/SaarPortfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
