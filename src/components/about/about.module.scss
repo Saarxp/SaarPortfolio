@@ -85,10 +85,11 @@
 
         .aboutMeCol {
             flex-direction: column;
-            height: 300px;
             .aboutTextWrapper {
-                width: 50%;
+                width: 90%;
                 font-size: 1rem;
+                text-align: center;
+                align-items: center;
     
                 ul {
                     padding-left: 15px;
