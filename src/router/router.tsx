@@ -12,7 +12,7 @@ const router = createBrowserRouter([{
     {path: "", element: <HomePage />},
     {path: "/SaarPortfolio/about", element: <AboutPage  />},
     {path: "/SaarPortfolio/projects", element: <ProjectsPage />},
-    {path: "*", element:<PageNotFound />}
+    {path: "/SaarPortfolio/*", element:<PageNotFound />}
   ]
 }])
 
