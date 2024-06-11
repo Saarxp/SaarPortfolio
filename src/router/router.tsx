@@ -9,7 +9,7 @@ const router = createBrowserRouter([{
   path: "/",
   element: <NavbarWrapper />,
   children: [
-    {path: "", element: <HomePage />},
+    {path: "/SaarPortfolio/", element: <HomePage />},
     {path: "about", element: <AboutPage  />},
     {path: "projects", element: <ProjectsPage />},
     {path: "*", element:<PageNotFound />}
