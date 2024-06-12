@@ -1,14 +1,9 @@
+@import '../../var.scss';
+
 .projectsWrapper{
     width: 100%;
-    .BackgroundImage{
-        background-image: url('../../assets/images/tiard-schulz-BbqIr6T8O10-unsplash.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: left;
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
+    .BackgroundImage {
+        @include background-image-properties;
     }
 }
 

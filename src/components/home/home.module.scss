@@ -1,15 +1,12 @@
+@import '../../var.scss';
+
 .homeWrapper {
     width: 100%;
 
     .BackgroundImage {
-        background-image: url('../../assets/images/tiard-schulz-BbqIr6T8O10-unsplash.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
+        @include background-image-properties;
     }
+
 
     .homeMainRow {
         width: 70%;
@@ -188,6 +185,7 @@
 
         .imageWrapper {
             margin-top: 150px;
+
             .homeHeaderImage {
                 width: 280px;
                 height: 280px;

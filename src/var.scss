@@ -1,0 +1,13 @@
+:root {
+    --blue-lightning: #018dbb;
+}
+
+@mixin background-image-properties {
+    background-image: url('../../assets/images/tiard-schulz-BbqIr6T8O10-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}

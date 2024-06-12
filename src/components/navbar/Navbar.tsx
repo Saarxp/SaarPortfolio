@@ -5,7 +5,7 @@ import HamburgerNav from "../navbarHamburger/HamburgerNav";
 
 function Navbar() {
 const [navColour, updateNavbar] = useState<boolean>(false);
-const [navClosed, setNavClosed] = useState<boolean>(true);
+const [navClosed, setNavClosed] = useState<boolean>(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {

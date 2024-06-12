@@ -1,9 +1,8 @@
-:root{
-    --blue-lightning: #018dbb;
-}
+@import './var.scss';
 
 #root{ 
   position: relative;
+  
 }
 
 body{
@@ -37,3 +36,7 @@ h1{
       position: unset;
   }
 }
+
+
+
+
