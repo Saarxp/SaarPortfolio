@@ -5,6 +5,7 @@ import dogBreeds from '../../assets/projectImages/DogBreeds.png';
 import noteList from '../../assets/projectImages/NoteList.png';
 import memoryGame from '../../assets/projectImages/MemoryGame.png';
 import comingSoon from '../../assets/projectImages/Coming soon.jpg';
+import Todolist from '../../assets/projectImages/todo.png';
 
 const projects:ProjectCardProps[] = 
 [
@@ -44,11 +45,11 @@ const projects:ProjectCardProps[] =
         gitUrl: "https://github.com/Saarxp/Memory-Game",
     },
     {
-        imgSrc: comingSoon,
-        header: "Coming Soon...",
-        description: "",
-        skills:"",
-        gitUrl: "",
+        imgSrc: Todolist,
+        header: "Todo List",
+        description: "Website to write for yourself things you need to do. used technologies such as",
+        skills:"React, Tailwind, Typescript, FireBase",
+        gitUrl: "https://github.com/Saarxp/To-Do-List",
     }
     
 ]
