@@ -4,7 +4,6 @@ import socialNetwork from '../../assets/projectImages/SocialNetwork.png';
 import dogBreeds from '../../assets/projectImages/DogBreeds.png';
 import noteList from '../../assets/projectImages/NoteList.png';
 import memoryGame from '../../assets/projectImages/MemoryGame.png';
-import comingSoon from '../../assets/projectImages/Coming soon.jpg';
 import Todolist from '../../assets/projectImages/todo.png';
 
 const projects:ProjectCardProps[] = 
@@ -47,7 +46,7 @@ const projects:ProjectCardProps[] =
     {
         imgSrc: Todolist,
         header: "Todo List",
-        description: "Website to write for yourself things you need to do. used technologies such as",
+        description: "Website to write for yourself things you need to do. used technologies such as ",
         skills:"React, Tailwind, Typescript, FireBase",
         gitUrl: "https://github.com/Saarxp/To-Do-List",
     }
