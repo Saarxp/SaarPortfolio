@@ -2,7 +2,7 @@ import { DiGit, DiMongodb, DiMysql, DiNodejs } from "react-icons/di";
 import style from "./skillsContainer.module.scss";
 import SkillBox from "./SkillBox";
 import { SiTypescript } from "react-icons/si";
-import { RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
+import { RiJavascriptFill, RiTailwindCssFill , RiFirebaseLine } from "react-icons/ri";
 import {
   FaBootstrap,
   FaCss3Alt,
@@ -11,6 +11,7 @@ import {
   FaReact,
   FaSass,
 } from "react-icons/fa";
+
 
 function SkillsContainer() {
   return (
@@ -32,6 +33,7 @@ function SkillsContainer() {
         <SkillBox Icon={DiGit} skillName="Git"/>
         <SkillBox Icon={RiTailwindCssFill} skillName="TailWind"/>
         <SkillBox Icon={FaBootstrap} skillName="BootStrap"/>
+        <SkillBox Icon={RiFirebaseLine} skillName="Firebase"/>
       </div>
     </div>
   );
