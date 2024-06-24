@@ -13,7 +13,6 @@ import {
 } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 
-
 function SkillsContainer() {
   return (
     <div className={style.skillBoxWrapper}>
@@ -40,6 +39,7 @@ function SkillsContainer() {
         <SkillBox Icon={DiGit} skillName="Git"/>
         <SkillBox Icon={RiTailwindCssFill} skillName="TailWind"/>
         <SkillBox Icon={FaBootstrap} skillName="BootStrap"/>
+        <SkillBox Icon={RiFirebaseLine} skillName="Firebase"/>
       </div>
     </div>
   );
